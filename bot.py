@@ -55,7 +55,7 @@ def create_unauthorized_warning_embed():
         description=(
             "เซิร์ฟเวอร์ หรือ บัญชีผู้ใช้นี้ **ยังไม่ได้ทำการซื้อลิขสิทธิ์ระบบ Voice Chat อย่างถูกต้อง**\n"
             "*ระบบอนุญาตให้ใช้งานชั่วคราว/พิมพ์ทับได้ แต่โปรดติดต่อลงทะเบียนเพื่อใช้งานระยะยาว*\n\n"
-            f"🛒 **สั่งซื้อลิขสิทธิ์ได้ที่:** [{CONFIG['SHOP_INFO']['NAME']}]({CONFIG['SHOP_INFO']['LINK']})"
+            f"🛒 **สั่งซื้อได้ที่:** [{CONFIG['SHOP_INFO']['NAME']}]({CONFIG['SHOP_INFO']['LINK']})"
         )
     )
     embed.set_footer(text="ระบบแจ้งเตือนลิขสิทธิ์การใช้งาน")
