@@ -24,8 +24,8 @@ CONFIG = {
     "ALLOWED_GUILDS": parse_int_list("ALLOWED_GUILDS"),
     "ALLOWED_USERS": parse_int_list("ALLOWED_USERS"),
     "SHOP_INFO": {
-        "NAME": os.getenv("SHOP_NAME", "MUMGAME SHOP"),
-        "LINK": os.getenv("SHOP_LINK", "https://discord.gg/your-shop-link")
+        "NAME": os.getenv("SHOP_NAME", "memory shop"),
+        "LINK": os.getenv("SHOP_LINK", "https://discord.gg/bm78WmEfvs")
     }
 }
 
