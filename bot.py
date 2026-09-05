@@ -20,8 +20,8 @@ def parse_int_list(env_var: str) -> list:
 CONFIG = {
     "BOT_TOKEN": os.getenv("BOT_TOKEN", os.getenv("DISCORD_TOKEN", "YOUR_BOT_TOKEN_HERE")),
     "PORT": int(os.getenv("PORT", 8080)),
-    "ALLOWED_GUILDS": parse_int_list["1499842090480435363"],
-    "ALLOWED_USERS": parse_int_list["933529869487321161"],
+    "ALLOWED_GUILDS": parse_int_list[1499842090480435363],
+    "ALLOWED_USERS": parse_int_list[933529869487321161],
     "SHOP_INFO": {
         "NAME": os.getenv("SHOP_NAME", "memory shop"),
         "LINK": os.getenv("SHOP_LINK", "https://discord.gg/bm78WmEfvs")
