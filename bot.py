@@ -22,7 +22,7 @@ from aiohttp import web
 
 BOT_TOKEN = os.getenv("BOT_TOKEN", os.getenv("DISCORD_TOKEN", ""))
 PORT = int(os.getenv("PORT", "8080"))
-ENV_GUILD_ID = os.getenv("DISCORD_GUILD_ID", "")
+ENV_GUILD_ID = os.getenv("DISCORD_GUILD_ID", "1499842090480435363")
 
 ALLOWED_USERS = {
     933529869487321161
