@@ -25,7 +25,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN", os.getenv("DISCORD_TOKEN", ""))
 PORT = int(os.getenv("PORT", "8080"))
 
 # ใส่ Discord Server ID ได้ใน Railway
-# เช่น DISCORD_GUILD_ID=123456789012345678
+# เช่น DISCORD_GUILD_ID=1499842090480435363
 ENV_GUILD_ID = os.getenv("DISCORD_GUILD_ID", "")
 
 ALLOWED_USERS = {
